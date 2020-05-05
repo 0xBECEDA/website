@@ -33,7 +33,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*header style*/
 .header{
 	position: relative;
-	background-image: url('headerback.jpg');
+	background-image: url('../html/idea.jpg');
 
 	background-size: cover;
 	background-position: center;
@@ -59,7 +59,6 @@ html,h1,h2,h3,h4,h5,h6,a{
 .description p{
 	color:#666;
 	font-size: 20px;
-	width: 50%;
 	line-height: 1.5;
 }
 .description button{
@@ -87,10 +86,6 @@ html,h1,h2,h3,h4,h5,h6,a{
 	position: absolute;
 	left: 115px;
 }
-.about .desc{
-	padding: 2em;
-	border-left:4px solid #10828C;
-}
 .about .desc h3{
 	color: #10828C;
 }
@@ -99,121 +94,20 @@ html,h1,h2,h3,h4,h5,h6,a{
 	color:#888;
 }
 
+/* Portfolio */
 .portfolio h1{
 	color:#584079;
 	margin: 2em;
 }
 
-/*Portfolio*/
-#quote{
-    padding: 50px 0px 300px 0px;
-    width: 100%;
-    background: #0000ff;
-    color: #fff;
-}
-/* карусель отзывов bootstrap */
-/* carousel */
-#quote-carousel
-{
-  padding: 0 10px 30px 10px;
-  margin-top: 30px 0px 0px;
+.portfolio .desc{
+	padding: 2em;
+	border-left:4px solid #10828C;
 }
 
-/* Control buttons  */
-#quote-carousel .carousel-control
-{
-  background: none;
-  color: #222;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-/* Previous button  */
-#quote-carousel .carousel-control.left
-{
-  left: -12px;
-}
-/* Next button  */
-#quote-carousel .carousel-control.right
-{
-  right: -12px !important;
-}
-/* Changes the position of the indicators */
-#quote-carousel .carousel-indicators
-{
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-/* Changes the color of the indicators */
-#quote-carousel .carousel-indicators li
-{
-  background: #c0c0c0;
-}
-#quote-carousel .carousel-indicators .active
-{
-  background: #333333;
-}
-#quote-carousel img
-{
-  width: 100px;
-  height: 100px;
-}
-/* End carousel */
-
-.item blockquote {
-    border-left: none;
-    margin: 0;
-}
-
-.item blockquote img {
-    margin-bottom: 10px;
-}
-
-.item blockquote p:before {
-    content: "\f10d";
-    font-family: 'Fontawesome';
-    float: left;
-    margin-right: 10px;
-}
-
-
-
-/**
-  MEDIA QUERIES
-*/
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    #quote-carousel
-    {
-      margin-bottom: 0;
-      padding: 0 40px 30px 40px;
-      margin-top: 30px;
-    }
-
-}
-
-/* Small devices (tablets, up to 768px) */
-@media (max-width: 768px) {
-
-    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
-
-    #quote-carousel .carousel-indicators {
-        bottom: -20px !important;
-    }
-    #quote-carousel .carousel-indicators li {
-        display: inline-block;
-        margin: 0px 5px;
-        width: 15px;
-        height: 15px;
-    }
-    #quote-carousel .carousel-indicators li.active {
-        margin: 0px 5px;
-        width: 20px;
-        height: 20px;
-    }
+.portfolio p{
+	line-height:2;
+	color:#888;
 }
 
 /* Team */
@@ -226,31 +120,34 @@ html,h1,h2,h3,h4,h5,h6,a{
 	color: #584079;
 	margin: 2em;
 }
-.team .item{
-	position: relative;
-	overflow: hidden;
-}
-.team .des{
-	background: #584079;
-	color: #fff;
-	text-align: center;
-	border-top-right-radius: 93%;
-	transition:.3s ease-in-out;
-	position: absolute;
-	width: 88%;
-	bottom: 24px;
 
+/* .team .item{ */
+/* 	position: relative; */
+/* 	overflow: hidden; */
+/* } */
 
-}
-.team .item:hover .des{
-	height: 100%;
-	background:#f973007d;
-    position: absolute;
-	width: 100%;
-	padding: 5em;
-	top: 0;
-	border-top-right-radius: 0;
-}
+/* .team .des{ */
+/* 	background: #584079; */
+/* 	color: #fff; */
+/* 	text-align: center; */
+/* 	border-top-right-radius: 93%; */
+/* 	transition:.3s ease-in-out; */
+/* 	position: absolute; */
+/* 	width: 88%; */
+/* 	bottom: 24px; */
+/* } */
+/* .team .item:hover .des{ */
+/* 	height: 100%; */
+/* 	background:#f973007d; */
+/*     position: absolute; */
+/* 	width: 100%; */
+/* 	padding: 5em; */
+/* 	top: 0; */
+/* 	border-top-right-radius: 0; */
+/* } */
+
+/* Contacn */
+
 .contact-form{
 	margin: 6em 0;
 	position: relative;
